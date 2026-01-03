@@ -510,7 +510,7 @@ The DayFlow HRMS project was developed through equal collaboration, with each te
 
 | Field | Details |
 |------|--------|
-| 🧑 Name | **Khetani Jainam Anilbhai** |
+| 🧑 Name | **Jainam Anilbhai Khetani** |
 | 🎓 Role | Development Team Member |
 | 🛠️ Key Contributions | Backend development, database schema design, core module integration |
 | 🔐 Responsibilities | Authentication logic, session handling, access control |
@@ -546,7 +546,7 @@ The DayFlow HRMS project was developed through equal collaboration, with each te
 
 | Field | Details |
 |------|--------|
-| 🧑 Name | **24CS030 Jashjoshi** |
+| 🧑 Name | **Jashjoshi** |
 | 🎓 Role | Development Team Member |
 | 🛠️ Key Contributions | Backend logic implementation, data processing |
 | 🔐 Responsibilities | Input validation, secure operations |
@@ -568,7 +568,7 @@ The DayFlow HRMS project was developed through equal collaboration, with each te
 
 ## ⭐ Why DayFlow?
 
-**Simple • Secure • Scalable • Practical • Hackathon-Ready**
+**Simple • Secure • Scalable • Practical • Hackathon-Ready  • Odoo x GCET Hackathon**
 
 DayFlow is not just an academic implementation, but a thoughtfully designed HRMS solution that mirrors real organizational workflows.  
 It demonstrates strong fundamentals in system design, security, modular development, and team collaboration.
