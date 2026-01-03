@@ -476,7 +476,49 @@ This enhances transparency and reduces manual payroll processing.
 - Downloadable attendance sheets
 - Employee-wise and department-wise reports
 
-These reports are useful for performance tracking and audits.
+#### 📅 Attendance Summary (Monthly / Yearly)
+
+Attendance (%)
+100 ┤█████████████████████████████
+90 ┤█████████████████████████
+80 ┤████████████████████
+70 ┤███████████████
+60 ┤██████████
+50 ┤███████
+└─ Jan ─ Feb ─ Mar ─ Apr ─ May ─ Jun
+
+---
+
+#### 👥 Employee-wise Attendance Snapshot
+
+| Employee | Jan | Feb | Mar | Apr | Status |
+|--------|-----|-----|-----|-----|--------|
+| Emp 01 | ████ | ███ | ████ | ███ | ✅ Regular |
+| Emp 02 | ███ | ██ | ███ | ██ | ⚠️ Irregular |
+| Emp 03 | ████ | ████ | ████ | ████ | ⭐ Excellent |
+
+---
+
+#### 🏢 Department-wise Attendance Distribution
+
+| Department | Attendance Level |
+|-----------|------------------|
+| HR | ██████████ 90% |
+| IT | ████████ 80% |
+| Finance | ███████ 75% |
+| Operations | ██████ 70% |
+
+---
+
+#### 📥 Report Availability
+
+| Report Type | Format | Availability |
+|------------|--------|--------------|
+| Monthly Attendance | PDF / Excel | ✅ Downloadable |
+| Yearly Attendance | PDF / Excel | ✅ Downloadable |
+| Employee-wise Report | PDF | ✅ Downloadable |
+| Department-wise Report | PDF | ✅ Downloadable |
+
 
 ---
 
