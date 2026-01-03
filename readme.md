@@ -347,13 +347,28 @@ These practices significantly reduce risks related to:
 ---
 
 ### 🔁 Secure Redirect Handling
-DayFlow uses controlled redirect mechanisms to ensure safe navigation.
 
-- Unauthorized users are redirected to the login page
-- Session checks are performed before rendering protected views
-- Redirect loops are avoided through conditional checks
+User Request
+↓
+🔐 Session Check
+↓
+❌ Unauthorized? ── Yes ──► 🔑 Login Page
+│
+No
+↓
+✅ Authorized Access
+↓
+Protected View Rendered
 
-This improves both security and user experience by guiding users to appropriate access points.
+
+| Redirect Rule | Status |
+|--------------|--------|
+| Session Validation | 🔐 Active |
+| Unauthorized Redirect | 🔑 Enabled |
+| Loop Prevention | ♻️ Controlled |
+| UX Safety | ⭐ Optimized |
+
+
 
 ---
 
@@ -393,13 +408,26 @@ New modules such as performance tracking or recruitment can be integrated seamle
 ---
 
 ### 🗄️ Database Scalability
-The MySQL database schema is designed to support:
 
-- Relational integrity between employees, attendance, and payroll
-- Expansion for analytics and reporting
-- Historical data storage for audits and compliance
+Employee Data
+↓
+Attendance Records
+↓
+Payroll Information
+↓
+📊 Analytics & Reports
+↓
+🗂️ Audit & History Logs
 
-Indexes and structured relationships allow efficient querying even as data volume increases.
+
+| Database Feature | Status |
+|-----------------|--------|
+| Relational Integrity | 🔗 Enabled |
+| Analytics Expansion | 📈 Ready |
+| Historical Storage | 🗂️ Supported |
+| Query Optimization | ⚡ Indexed |
+
+
 
 ---
 
@@ -416,12 +444,23 @@ The separation of concerns ensures long-term adaptability.
 ---
 
 ### ⚙️ Backend Extensibility
-Backend logic is structured to allow:
-- Addition of APIs
-- Integration with third-party services
-- Migration to RESTful architecture if required
 
-This makes DayFlow suitable as a base for enterprise-grade HR platforms.
+Core Backend Logic
+↓
+➕ New APIs
+↓
+🔌 Third-Party Integrations
+↓
+🌐 RESTful Architecture
+
+
+| Capability | Support |
+|-----------|---------|
+| API Expansion | ✅ |
+| External Services Integration | ✅ |
+| REST Migration | ✅ |
+| Enterprise Readiness | ⭐ |
+
 
 ---
 
@@ -442,12 +481,22 @@ While DayFlow already covers core HR functionalities, several enhancements can f
 ---
 
 ### 📧 Email & Notification Alerts
-- Automated email notifications for leave approvals/rejections
-- Alerts for attendance irregularities
-- Payroll update notifications
-- In-app notification center
 
-This reduces manual communication and improves response time.
+Employee Action
+↓
+📨 Email Alert → 🔔 In-App Notification
+↓
+Admin / Employee Acknowledgement
+
+
+| Trigger Event | Notification Type |
+|--------------|------------------|
+| Leave Approval / Rejection | 📧 Email + 🔔 In-App |
+| Attendance Irregularity | 🔔 In-App |
+| Payroll Update | 📧 Email |
+| System Updates | 🔔 In-App |
+
+
 
 ---
 
@@ -479,6 +528,7 @@ This enhances transparency and reduces manual payroll processing.
 #### 📅 Attendance Summary (Monthly / Yearly)
 
 Attendance (%)
+
 100 ┤█████████████████████████████
 
 90 ┤█████████████████████████
