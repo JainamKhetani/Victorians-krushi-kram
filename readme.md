@@ -480,11 +480,17 @@ This enhances transparency and reduces manual payroll processing.
 
 Attendance (%)
 100 ┤█████████████████████████████
+
 90 ┤█████████████████████████
+
 80 ┤████████████████████
+
 70 ┤███████████████
+
 60 ┤██████████
+
 50 ┤███████
+
 └─ Jan ─ Feb ─ Mar ─ Apr ─ May ─ Jun
 
 ---
