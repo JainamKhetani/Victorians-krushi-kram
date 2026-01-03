@@ -20,7 +20,7 @@
 
 ---
 
-```md
+
 ## 📌 Table of Contents
 - 🌟 [Overview](#-overview)
 - 🎯 [Problem Statement](#-problem-statement)
@@ -38,7 +38,7 @@
 - 📈 [Scalability Considerations](#-scalability-considerations)
 - 🔮 [Future Enhancements](#-future-enhancements)
 - 👨‍💻 [Team](#-team)
-```
+
 ---
 
 ## 🌟 Overview
