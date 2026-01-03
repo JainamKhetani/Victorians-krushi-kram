@@ -9,7 +9,6 @@
 <img src="https://img.shields.io/badge/HRMS-System-blue?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php"/>
 <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql"/>
-<img src="https://img.shields.io/badge/HTML-CSS-JS-orange?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Odoo%20Hackathon-Production--Ready-success?style=for-the-badge"/>
 
 <br/><br/>
