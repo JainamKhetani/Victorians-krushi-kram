@@ -295,22 +295,29 @@ This approach ensures:
 ---
 
 ### 🛂 Role-Level Access Control
-DayFlow strictly enforces **role-based access control (RBAC)** to separate responsibilities and privileges.
 
-#### Roles Supported:
-- **Admin / HR**
-- **Employee**
+- 👤 User Login  
+        ↓  
+- 🧾 Role Identified  
+        ↓  
+- 🧑‍💼 Admin / HR  
+  ├─ Manage Employees  
+  ├─ Approve / Reject Leave  
+  └─ View Attendance & Payroll  
 
-Each role has predefined permissions:
-- Admin/HR users can manage employees, approve leave, and view payroll data
-- Employees can only access their own profile, attendance, and salary details
+- 👤 Employee  
+  ├─ View Personal Profile  
+  ├─ View Attendance  
+  └─ View Salary  
 
-Role checks are performed:
-- At page load
-- Before executing sensitive actions
-- Before accessing admin-only modules
+        ↓  
+- 🔎 Role Validation Checks  
+  ├─ On Page Load  
+  ├─ Before Sensitive Actions  
+  └─ Before Admin-Only Modules  
 
-This prevents privilege escalation and enforces organizational hierarchy.
+        ↓  
+- 🛡️ Access Granted or Denied  
 
 ---
 
@@ -348,18 +355,18 @@ These practices significantly reduce risks related to:
 
 ### 🔁 Secure Redirect Handling
 
-User Request
-↓
-🔐 Session Check
-↓
-❌ Unauthorized? ── Yes ──► 🔑 Login Page
-│
-No
-↓
-✅ Authorized Access
-↓
-Protected View Rendered
-
+- 👤 User Request  
+        ↓  
+- 🔐 Session Check  
+        ↓  
+- ❌ Unauthorized?  
+  ├─ Yes → 🔑 Login Page  
+  └─ No  
+        ↓  
+- ✅ Authorized Access  
+        ↓  
+- 🖥️ Protected View Rendered
+  
 
 | Redirect Rule | Status |
 |--------------|--------|
@@ -411,13 +418,13 @@ New modules such as performance tracking or recruitment can be integrated seamle
 ### 🗄️ Database Scalability (Flow)
 
 - Employee Data  
-  ↓  
+        ↓  
 - Attendance Records  
-  ↓  
+        ↓  
 - Payroll Information  
-  ↓  
+        ↓  
 - 📊 Analytics & Reports  
-  ↓  
+        ↓  
 - 🗂️ Audit & History Logs
 
 
@@ -447,13 +454,14 @@ The separation of concerns ensures long-term adaptability.
 
 ### ⚙️ Backend Extensibility
 
-Core Backend Logic
-↓
-➕ New APIs
-↓
-🔌 Third-Party Integrations
-↓
-🌐 RESTful Architecture
+- 🧠 Core Backend Logic  
+        ↓  
+- ➕ New APIs  
+        ↓  
+- 🔌 Third-Party Integrations  
+        ↓  
+- 🌐 RESTful Architecture  
+
 
 
 | Capability | Support |
@@ -484,11 +492,12 @@ While DayFlow already covers core HR functionalities, several enhancements can f
 
 ### 📧 Email & Notification Alerts
 
-Employee Action
-↓
-📨 Email Alert → 🔔 In-App Notification
-↓
-Admin / Employee Acknowledgement
+
+- 👤 Employee Action  
+        ↓  
+- 📨 Email Alert → 🔔 In-App Notification  
+        ↓  
+- 👥 Admin / Employee Acknowledgement  
 
 
 | Trigger Event | Notification Type |
