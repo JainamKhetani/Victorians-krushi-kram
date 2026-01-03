@@ -407,17 +407,19 @@ New modules such as performance tracking or recruitment can be integrated seamle
 
 ---
 
-### 🗄️ Database Scalability
 
-Employee Data
-↓
-Attendance Records
-↓
-Payroll Information
-↓
-📊 Analytics & Reports
-↓
-🗂️ Audit & History Logs
+### 🗄️ Database Scalability (Flow)
+
+- Employee Data  
+  ↓  
+- Attendance Records  
+  ↓  
+- Payroll Information  
+  ↓  
+- 📊 Analytics & Reports  
+  ↓  
+- 🗂️ Audit & History Logs
+
 
 
 | Database Feature | Status |
