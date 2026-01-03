@@ -251,27 +251,23 @@ cd Script-Squad-Odoo-X-GCET
 ```
 
 2️⃣ Create database
+SQL
 ```bash
-sql
-Copy code
 CREATE DATABASE dayflow_hrms;
 ```
 
 3️⃣ Configure database connection
+
 Edit db.php:
 ```bash
-php
-Copy code
 $conn = new mysqli("localhost", "root", "", "dayflow_hrms");
 ```
 4️⃣ Run the project
 
 Start Apache & MySQL from XAMPP
-
 Open browser:
 
 ```bash
-Copy code
 http://localhost/DayFlow-HRMS/login.html
 ```
 🧪 Security & Validation
