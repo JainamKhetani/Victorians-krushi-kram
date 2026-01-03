@@ -20,24 +20,25 @@
 
 ---
 
+```md
 ## 📌 Table of Contents
-- 🌟 Overview  
-- 🎯 Problem Statement  
-- 💡 Our Solution  
-- ✨ Key Features  
-- 🔐 Authentication & Roles  
-- 📊 Core Modules  
-- 🔄 Application Workflow  
-- 🏗️ System Architecture  
-- 🗄️ Database Design Overview  
-- 🔧 Tech Stack  
-- 📁 Project Structure  
-- 🚀 Getting Started  
-- 🧪 Security & Validation  
-- 📈 Scalability Considerations  
-- 🔮 Future Enhancements  
-- 👨‍💻 Team  
-
+- 🌟 [Overview](#-overview)
+- 🎯 [Problem Statement](#-problem-statement)
+- 💡 [Our Solution](#-our-solution)
+- ✨ [Key Features](#-key-features)
+- 🔐 [Authentication & Roles](#-authentication--roles)
+- 📊 [Core Modules](#-core-modules)
+- 🔄 [Application Workflow](#-application-workflow)
+- 🏗️ [System Architecture](#-system-architecture)
+- 🗄️ [Database Design Overview](#-database-design-overview)
+- 🔧 [Tech Stack](#-tech-stack)
+- 📁 [Project Structure](#-project-structure-improved)
+- 🚀 [Getting Started](#-getting-started)
+- 🧪 [Security & Validation](#-security--validation)
+- 📈 [Scalability Considerations](#-scalability-considerations)
+- 🔮 [Future Enhancements](#-future-enhancements)
+- 👨‍💻 [Team](#-team)
+```
 ---
 
 ## 🌟 Overview
