@@ -500,22 +500,70 @@ This reduces manual attendance entry and improves accuracy.
 
 ---
 
-## 👨‍💻 Team
+## 👨‍💻 Development Team & Contributions
 
-<div align="center">
+The DayFlow HRMS project was developed through equal collaboration, with each team member contributing significantly across different phases of design, development, and integration.
 
-### 👥 Development Team
+---
 
-This project was **developed collaboratively by a 4-member team**, with responsibilities distributed across:
+### 👤 Team Member 1
 
-- Backend Development  
-- Database Design & Management  
-- User Interface & UX  
-- System Integration & Testing  
+| Field | Details |
+|------|--------|
+| 🧑 Name | **Khetani Jainam Anilbhai** |
+| 🎓 Role | Development Team Member |
+| 🛠️ Key Contributions | Backend development, database schema design, core module integration |
+| 🔐 Responsibilities | Authentication logic, session handling, access control |
+| 📌 Additional Work | Project coordination, final integration, deployment readiness |
 
-The team followed collaborative development practices, version control, and modular task allocation to ensure timely and high-quality delivery.
+---
 
-</div>
+### 👤 Team Member 2
+
+| Field | Details |
+|------|--------|
+| 🧑 Name | **Khushi Ka. Patel** |
+| 🎓 Role | Development Team Member |
+| 🛠️ Key Contributions | Module integration, feature implementation, system testing |
+| 🔐 Responsibilities | Validation checks, error handling, workflow verification |
+| 📌 Additional Work | Documentation support, UI flow testing, bug fixing |
+
+---
+
+### 👤 Team Member 3
+
+| Field | Details |
+|------|--------|
+| 🧑 Name | **Palak Donga** |
+| 🎓 Role | Development Team Member |
+| 🛠️ Key Contributions | Frontend structure, UI styling, layout consistency |
+| 🔐 Responsibilities | Form design, user experience improvements |
+| 📌 Additional Work | UI testing, responsiveness checks, visual enhancements |
+
+---
+
+### 👤 Team Member 4
+
+| Field | Details |
+|------|--------|
+| 🧑 Name | **24CS030 Jashjoshi** |
+| 🎓 Role | Development Team Member |
+| 🛠️ Key Contributions | Backend logic implementation, data processing |
+| 🔐 Responsibilities | Input validation, secure operations |
+| 📌 Additional Work | Debugging, feature optimization, performance checks |
+
+---
+
+### 🤝 Team Collaboration Summary
+
+- ✅ Equal participation in development tasks  
+- ✅ Clear communication and responsibility sharing  
+- ✅ Collaborative testing and integration  
+- ✅ Joint ownership of final project output  
+
+> 🌟 *This project reflects balanced teamwork, mutual contribution, and collective responsibility toward delivering a secure and scalable HRMS solution.*
+
+
 
 ---
 
