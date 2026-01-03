@@ -246,26 +246,34 @@ Copy code
 
 #### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/dayflow-hrms.git
-cd dayflow-hrms
+git clone https://github.com/JainamKhetani/Script-Squad-Odoo-X-GCET.git
+cd Script-Squad-Odoo-X-GCET
+```
+
 2️⃣ Create database
+```bash
 sql
 Copy code
 CREATE DATABASE dayflow_hrms;
+```
+
 3️⃣ Configure database connection
 Edit db.php:
-
+```bash
 php
 Copy code
 $conn = new mysqli("localhost", "root", "", "dayflow_hrms");
+```
 4️⃣ Run the project
+
 Start Apache & MySQL from XAMPP
 
 Open browser:
 
-bash
+```bash
 Copy code
 http://localhost/DayFlow-HRMS/login.html
+```
 🧪 Security & Validation
 Session-based authentication
 
