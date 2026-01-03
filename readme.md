@@ -208,24 +208,24 @@ Each table is linked using **employee IDs**, ensuring relational integrity and c
 
 ## 📁 Project Structure (Improved)
 
-DayFlow-HRMS/
-│
-├── db.php # Database connection
-├── admin_dashboard.php # Admin dashboard & metrics
-├── employees.php # Employee management
-├── attendance.php # Attendance tracking
-├── leave.php # Leave requests & approvals
-├── payroll.php # Payroll management
-│
-├── login.html # Login page
-├── logout.php # Logout & session destroy
-│
-├── assets/
-│ ├── css/ # Stylesheets
-│ └── images/ # UI images & icons
-│
-└── README.md # Project documentation
 
+
+```text
+DayFlow-HRMS/
+├── db.php                     # Database connection
+├── admin_dashboard.php        # Admin dashboard & metrics
+├── employees.php              # Employee management
+├── attendance.php             # Attendance tracking
+├── leave.php                  # Leave requests & approvals
+├── payroll.php                # Payroll management
+├── login.html                 # Login page
+├── logout.php                 # Logout & session destroy
+├── assets/
+│   ├── css/
+│   └── images/
+└── README.md
+
+```
 yaml
 Copy code
 
